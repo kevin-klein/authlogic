@@ -6,6 +6,5 @@ module Authlogic
     autoload :Sha512, "authlogic/crypto_providers/sha512"
     autoload :BCrypt, "authlogic/crypto_providers/bcrypt"
     autoload :AES256, "authlogic/crypto_providers/aes256"
-    autoload :SCrypt, "authlogic/crypto_providers/scrypt"
   end
 end
